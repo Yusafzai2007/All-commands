@@ -1,4 +1,53 @@
-github
+
+
+
+
+
+
+:: 🔹 First time setup (sirf ek baar laptop par)
+
+git config --global user.name "Yousafzi2007"
+git config --global user.email "yusafzai2007@gmail.com"
+
+
+:: 🔹 Har nayi project ke liye commands
+
+
+:: Step 1: Apne project folder me jao
+cd C:\Users\SCS\Desktop\your-project-folder
+
+:: Step 2: Git initialize karo
+git init
+
+:: Step 3: Saari files add karo
+git add .
+
+:: Step 4: Commit banao
+git commit -m "Initial commit"
+
+:: Step 5: Apna GitHub remote add karo (GitHub par repo create karne ke baad link copy karo)
+git remote add origin https://github.com/Yousafzi2007/your-repo-name.git
+
+:: Step 6: Branch ka naam main rakho
+git branch -M main
+
+:: Step 7: Push karo GitHub pe
+git push -u origin main
+
+:: ----------------------------
+:: 🔹 Future updates ke liye commands
+:: ----------------------------
+git add .
+git commit -m "Update project"
+git push
+
+
+
+
+
+
+
+github pr code push karna ka liye
 cd C:\Users\SCS\Desktop\second-folder
 git init
 git add .
@@ -7,8 +56,8 @@ git remote add origin https://github.com/Yousafzi2007/second-project.git
 git branch -M main
 git push -u origin main
 
-angular
 
+angular
 node -v
 npm -v
 npm install -g @angular/cli
